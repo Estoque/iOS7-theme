@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+
+<key>CalendarIconDateStyle</key>
+<string>color:#464646; font-size: 38px; margin-top: 0px; font-weight: 400; font-family: Helvetica-Bold;</string>
+
+<key>CalendarIconDayStyle</key>
+<string>font-size: 10px; font-weight:400; font-family: Helvetica-Bold;</string>
+
+<key>BadgeStyle</key>
+<string>color: #fff; font-size: 1em; font-weight: 400; border: 1px solid white; background: #90bd18; -webkit-border-radius: 1000px; padding: 0 6px; font-family: Helvetica-Bold;
+</string>
+
+<key>TimeStyle</key>
+<string>font-weight: 900; font-size: 12px; text-shadow: 0px 1px 0px #000, 0px 0px 2px #000; font-family: 'Helvetica-Bold', AppleSDGothicNeo-Bold; color: #fff;</string>
+
+<key>DockedIconLabelStyle</key>
+<string>color: #fff !important; font-weight: 900; font-size: 12px; text-shadow: 0px 1px 0px #000, 0px 0px 2px #000; font-family: 'Helvetica-Bold', AppleSDGothicNeo-Bold; </string>
+
+<key>UndockedIconLabelStyle</key>
+<string>color: #fff !important; font-weight: 900; font-size: 12px; text-shadow: 0px 1px 0px #000 , 0px 0px 2px #000; font-family: 'Helvetica-Bold' AppleSDGothicNeo-Bold; </string>
+
+</dict></plist>
