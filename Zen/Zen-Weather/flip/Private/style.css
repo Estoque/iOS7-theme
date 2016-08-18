@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* Animated Flip Down Clock Style */
+
+body{
+	background:#transparent;
+	width: 320px;
+	height: 480px;
+}
+
+#wrapper{
+	position:absolute;
+	top:7px;
+	left:46px;
+
+	
+}
+
+#front{
+	position:absolute;
+	top:47px;
+	left:1px;
+}
+
+
+
+#upperHalf, #upperHalfBack{
+	vertical-align:bottom;
+	z-index: 1;
+}
+
+#lowerHalf, #lowerHalfBack{
+	vertical-align:top;
+	z-index: 1;
+}
+
+
+
+
+#upperHalf img{
+	position:relative;
+	height:47px;
+	vertical-align:bottom;
+	visibility:visible;
+	z-index: 1;
+}
+
+#lowerHalf img{
+	position:relative;
+	height:47px;
+	vertical-align:top;
+	visibility:visible;
+	z-index: 1;
+}
+
+	
+#lowerHalfBack img{
+	position:relative;
+	vertical-align:top;
+	z-index: 1;
+}
+
+#upperHalfBack img{
+	position:relative;
+	vertical-align:bottom;
+	z-index: 1;
+}
+
+#hoursUp, #hoursDown, #hoursUpBack, #hoursDownBack{
+	width:145px;
+	top: -21px;
+	left:-35px;
+	z-index: 1;
+}
+
+#minutesUpLeft, #minutesUpRight, #minutesDownLeft, #minutesDownRight,
+#minutesUpLeftBack, #minutesUpRightBack, #minutesDownLeftBack, #minutesDownRightBack,
+#secondsUpLeft, #secondsUpRight, #secondsDownLeft, #secondsDownRight,
+#secondsUpLeftBack, #secondsUpRightBack, #secondsDownLeftBack, #secondsDownRightBack{
+	width:73px;
+	top: -21px;
+	left:-32px;
+}
+	
+#Overlay{
+	position:absolute; top:0px; left: 0px; width: 0px; height: 0px;
+	z-index: 4;
+}
+
+#Underlay{
+	position:absolute; top:0px; left: 0px; width: 320px; height: 220px;
+	z-index: 0;
+}
+
+
+	
+
