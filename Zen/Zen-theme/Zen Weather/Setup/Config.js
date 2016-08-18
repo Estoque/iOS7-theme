@@ -1,0 +1,1 @@
+var ampm=false;var updateInterval=15;var lang="fr";var SecDisplay=false;var AnimatedWeather=false;
