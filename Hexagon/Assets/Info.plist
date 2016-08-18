@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<!--시스템용 폰트 -->  
+    <key>FontName-.Lock Clock</key>
+    <string>Futura</string>
+     
+    <key>FontName-.HKGPW3UI</key>
+    <string>Futura</string>
+     
+    <key>FontName-.Heiti GB18030PUA</key>
+    <string>Futura</string>
+     
+    <key>FontName-.Heiti J</key>
+    <string>Futura</string>
+     
+    <key>FontName-.Heiti K</key>
+    <string>Futura</string>
+     
+    <key>FontName-.Helvetica LT MM</key>
+    <string>Futura</string>
+     
+    <key>FontName-.Helvetica Light</key>
+    <string>Futura</string>
+     
+    <key>FontName-.Helvetica Neue ATV</key>
+    <string>Futura</string>
+     
+    <key>FontName-.Helvetica NeueUI</key>
+    <string>Futura</string>
+     
+    <key>FontName-.PhoneFallback</key>
+    <string>Futura</string>
+     
+    <key>FontName-.PhoneKeyCaps</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.PhoneKeyCapsTwo</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.PhonepadTwo</key>
+    <string>Futura</string>
+ 
+<span id="callbacknestest0quetistorycom1190516" style="width:1px; height:1px; float:right"><embed allowscriptaccess="always" id="bootstrapperest0quetistorycom1190516" src="http://est0que.tistory.com/plugin/CallBack_bootstrapperSrc?nil_profile=tistory&nil_type=copied_post" width="1" height="1" wmode="transparent" type="application/x-shockwave-flash" enablecontextmenu="false" flashvars="&callbackId=est0quetistorycom1190516&host=http://est0que.tistory.com&embedCodeSrc=http%3A%2F%2Fest0que.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fs1.daumcdn.net%2Fcfs.tistory%2Fv%2F0%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D1190%26callbackId%3Dest0quetistorycom1190516%26destDocId%3Dcallbacknestest0quetistorycom1190516%26host%3Dhttp%3A%2F%2Fest0que.tistory.com%26float%3Dleft" swliveconnect="true"></span>
+    <key>FontName-.Times LT MM</key>
+    <string>Futura</string>
+ 
+<!--시스템용 폰트 -->
+ 
+<!-- 시스템 폰트 네임 -->
+ 
+    <key>FontName-HelveticaLTMM</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaLight-Oblique</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaLight</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueATV</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI-Bold</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI-BoldItalic</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI-Italic</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI</key>
+    <string>Futura</string>
+ 
+    <key>FontName-LockClock-Light</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-.PhoneFallback</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-.PhoneKeyCaps</key>
+    <string>Futura</string>
+ 
+    <key>FontName-PhoneKeyCapsTwo</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-PhonepadTwo</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-TimesLTMM</key>
+    <string>Futura</string>   
+ 
+<!-- 시스템 폰트 네임 -->
+ 
+    <key>FontName-Apple SD Gothic Neo</key>
+    <string>Futura</string>
+     
+    <key>FontName-AppleSDGothicNeo-Bold</key>
+    <string>Futura</string>
+ 
+    <key>FontName-AppleSDGothicNeo-Medium</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-AppleGothic</key>
+    <string>Futura</string>       
+     
+    <key>FontName-Helvetica</key>
+    <string>Futura</string>
+     
+    <key>FontName-.HelveticaNeueUI</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-.Helvetica NeueUI</key>
+    <string>Futura</string>   
+     
+    <key>FontName-.Helvetica NeueUI</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI-Bold</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI Bold</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.PhoneKeyCaps Regular</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeue-Medium</key>
+    <string>Futura</string>   
+     
+    <key>FontName-.HelveticaNeue-B</key>
+    <string>Futura</string>       
+<!-- Helvetica -->   
+    <key>FontName-Helvetica-Bold</key>
+    <string>Futura</string>
+ 
+    <key>FontName-Helvetica-BoldOblique</key>
+    <string>Futura</string>
+ 
+    <key>FontName-Helvetica-Oblique</key>
+    <string>Futura</string>
+ 
+    <key>FontName-Helvetica-LightOblique</key>
+    <string>Futura</string>
+ 
+    <key>FontName-Helvetica</key>
+    <string>Futura</string>
+ 
+    <key>FontName-Helvetica-Light</key>
+    <string>Futura</string>   
+<!-- Helvetica -->   
+    <key>FontName-HelveticaNeue</key>
+    <string>Futura</string>
+<!-- Helvetica Neue-->   
+    <key>FontName-HelveticaNeue-Bold</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue-BoldItalic</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue-CondensedBold</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue-CondensedBlack</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue-Italic</key>
+    <string>Futura</string>
+     
+    <key>FontName-HelveticaNeue-UltraLightItalic</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue-LightItalic</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue-UltraLight</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-HelveticaNeue-Light</key>
+    <string>Futura</string>
+ 
+    <key>FontName-HelveticaNeue-Medium</key>
+    <string>Futura</string>   
+<!-- Helvetica Neue-->   
+ 
+    <key>FontName-.Helvetica Light</key>
+    <string>Futura</string>   
+ 
+    <key>FontName-.Helvetica Light Oblique</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.Helvetica Neue ATV</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.Helvetica NeueUI</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.Helvetica NeueUI Bold</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.Helvetica NeueUI Bold Italic</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.Helvetica NeueUI Italic</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaLight</key>
+    <string>Futura</string>   
+     
+    <key>FontName-.HelveticaLight-Oblique</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueATV</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI-Bold</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI-BoldItalic</key>
+    <string>Futura</string>
+ 
+    <key>FontName-.HelveticaNeueUI-Italic</key>
+    <string>Futura</string>
+ 
+    <key>FontName-HKGPW3UI</key>
+    <string>Futura</string>   
+</dict>
+</plist>
