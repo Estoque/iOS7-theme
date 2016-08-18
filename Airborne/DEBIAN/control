@@ -1,0 +1,12 @@
+Package: com.estoque.airborne
+Name: Airborne
+Version: 1.0
+Architecture: iphoneos-arm
+Author: Estoque <incusx@naver.com>
+Depends: firmware (>= 7.0), mobilesubstrate, winterboard
+Depiction: http://est0que.tistory.com/1255
+Description: Flat, Clean, Carefully designed iOS7 theme
+Homepage: http://est0que.tistory.com/
+Maintainer: Estoque <incusx@naver.com>
+Section: Themes (Addons)
+Sponsor: Estoque <http://est0que.tistory.com/>

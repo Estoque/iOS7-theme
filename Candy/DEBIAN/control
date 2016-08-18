@@ -1,0 +1,12 @@
+Package: com.estoque.candy
+Name: Candy fot iOS7
+Version: 1.0
+Architecture: iphoneos-arm
+Author: Estoque <incusx@naver.com>
+Depends: firmware (>= 7.0), mobilesubstrate, winterboard
+Depiction: http://est0que.tistory.com/1395
+Description: Clean, Sweet and tasty icon theme for iOS7
+Homepage: http://est0que.tistory.com/
+Maintainer: Estoque <incusx@naver.com>
+Section: Themes (Addons)
+Sponsor: Estoque <http://est0que.tistory.com/>

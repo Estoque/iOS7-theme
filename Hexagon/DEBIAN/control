@@ -1,0 +1,12 @@
+Package: com.estoque.hexagon
+Name: Hexagon for iOS7
+Version: 1.0
+Architecture: iphoneos-arm
+Author: Estoque <incusx@naver.com>
+Depends: firmware (>= 7.0), com.eldwin.iwidgets, mobilesubstrate, winterboard
+Depiction: http://est0que.tistory.com/1483
+Description: Avantgarde iOS7 Theme - Hexagon
+Homepage: http://est0que.tistory.com/
+Maintainer: Estoque <incusx@naver.com>
+Section: Themes
+Sponsor: Estoque <http://est0que.tistory.com/>

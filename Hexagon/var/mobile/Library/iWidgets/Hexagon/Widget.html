@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CSS Hexagon - CodePen</title>
+
+<script>
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+// add a zero in front of numbers<10
+h=checkTime(h);
+m=checkTime(m);
+document.getElementById('txt').innerHTML=h+":"+m;
+t=setTimeout(function(){startTime()},500);
+}
+
+function checkTime(i)
+{
+if (i<10)
+  {
+  i="0" + i;
+  }
+return i;
+}
+</script>
+
+    <style>
+BODY {
+	background: transparent;
+	zoom:0.5;
+	margin: 0px;
+}
+
+#txt {
+	position: absolute;
+	font-size: 100px;
+	font-family: AvenirNextCondensed-UltraLight;
+	margin-top: 90px;
+	text-align: center;
+	margin-left: 30px;
+	color:  black;
+	z-index: 999;
+}
+
+</style>
+
+  <script src="js/prefixfree.min.js"></script>
+
+</head>
+
+<body onload="startTime()">
+ <div id="txt"></div>	
+<div><img src="base.png" alt="base" width="267" height="308"></div>
+
+</body>
+
+</html>
