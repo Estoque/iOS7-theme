@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>mmmm clock</title>
+<script type="text/javascript" charset="utf-8" src="Setup/Config.js"></script>
+<script type="text/javascript" charset="utf-8" src="Resources/JavaScript/Main/Main.js"></script>
+<script type="text/javascript" src="Resources/JavaScript/jquerry-1.7.js"></script>
+	
+</head>
+<style type="text/css">
+	@font-face
+	{
+	font-family: mpro;
+	src: url(mpro.otf);
+	}	
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	.face {		
+		width: 320px;
+		height: 280px;
+		margin:  0;
+		padding: 0;
+		padding-top: 20px;
+		overflow: hidden;
+	}
+	.clock {
+		background: url(bkgd.png);
+		width: 239px;
+		height: 239px;
+		margin: 0 auto;
+		-webkit-border-radius: 1000px;
+		box-shadow: 0px 0px 20px #000;
+		color: #1D171C;
+		
+	}
+	div#txt {
+		font-size: 75px;
+		text-align: center;
+		position: absolute;
+		width: 320px;
+		margin: 0 auto;
+		z-index: 100;
+		margin-top: 70px;
+		font-family: mpro;
+	}
+	div.date {
+		font-size: 30px;
+		text-align: center;
+		position: absolute;
+		width: 320px;
+		margin: 0 auto;
+		z-index: 100;
+		margin-top: 145px;
+		font-family: mpro;
+		color: #1D171C;		
+	}
+</style>
+<body bgcolor="Transparent" onLoad="init()">
+<div class="face">
+	<div id="txt"></div>
+	<div class="date">
+	</div>
+	<div class="clock">		
+	</div>
+</div>
+<div id="main">
+<img id="WeatherStatic" SRC="Images/WeatherStatic/dunno.jpg"  class="stretch" /></img>
+<div id="Clock">시계</div>
+<div id="ampm">오후오전</div>
+	<div id="WeatherInfo">
+	  <div id="city">지역</div>
+	  <div id="date">날짜</div>
+	  <div id="temp">온도</div>
+	  <div CLASS="minmaxContainer">
+	    <div id="lowd">min</div>
+	    <div id="low">최저</div>
+	    <div id="highd">max</div>
+	    <div id="high">최고</div>
+	</div>
+  <div id="desc">날씨</div>
+  <div id="Offline">오프라인</div>
+</div>
+<style type="text/css">
+	#Clock, #ampm, #date, .minmaxContainer {
+		display: none;
+	}
+	img#WeatherStatic {
+		width: 75px;
+		height: 75px;
+	}
+	#main {
+		position: absolute;
+	}
+	#city {
+		text-align: center;
+		position: absolute;
+		width: 320px;
+		margin: 0 auto;
+		z-index: 100;
+		color: #1D171C;
+		font-family: AppleSDGothicNeo-Medium;				
+	}
+</style>
+<div id="forecast" class="move" style="display:none;">
+<img class="meteOverlay" src="Images/Overlay/meteOverlay.png" width="640" height="960" alt="meteOverlay">
+<div id="Wday2">
+    <div id="day2"></div>
+    <img id="icon2" SRC="Images/klear/1.png" /></img>
+    <div class="minmax">
+      <div id="low2" class="min" >7°</div>
+      <div class="slash">&nbsp;|&nbsp;</div>
+      <div id="high2" class="max" >&nbsp;11°</div>
+    </div>
+  </div>
+  <div id="Wday3">
+    <div id="day3"></div>
+    <img id="icon3" SRC="Images/klear/1.png" /></img>
+    <div class="minmax">
+      <div id="low3" class="min" >7°</div>
+      <div class="slash">&nbsp;|&nbsp;</div>
+      <div id="high3" class="max" >&nbsp;11°</div>
+    </div>
+  </div>
+  <div id="Wday4">
+    <div id="day4"></div>
+    <img id="icon4" SRC="Images/klear/1.png" /></img>
+    <div class="minmax">
+      <div id="low4" class="min" >7°</div>
+      <div class="slash">&nbsp;|&nbsp;</div>
+      <div id="high4" class="max" >&nbsp;11°</div>
+    </div>
+  </div>
+  <div id="Wday5">
+    <div id="day5"></div>
+    <img id="icon5" SRC="Images/klear/1.png" /></img>
+    <div class="minmax">
+      <div id="low5" class="min" >7°</div>
+      <div class="slash">&nbsp;|&nbsp;</div>
+      <div id="high5" class="max" >&nbsp;11°</div>
+    </div>
+  </div>
+    <div id="lastupdate"> </div>
+</div>
+</body>
+</html>

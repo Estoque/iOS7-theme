@@ -1,0 +1,466 @@
+/* FONTS */
+
+
+@font-face {
+
+	font-family: 'Bauhaus';
+
+	src: url('../../../fonts/PreludeWGL-Light.ttf');
+
+}
+
+
+
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	width: 320px;
+
+	height: 300px;
+
+	font-family: Bauhaus;
+
+}
+
+
+
+.stretch {
+
+	width:100%;
+
+	height:100%;
+
+}
+
+
+
+
+
+#WeatherStatic {
+
+    position: absolute;
+
+    top: 20px;
+
+	left: 20px;
+
+	width: 60px;
+
+	height: 60px;
+
+    z-index: 10;
+
+	opacity : 1;
+
+}
+
+
+
+
+@-webkit-keyframes staticW {
+
+		0% {
+
+		   opacity : 0;
+
+			}
+
+		50% {
+
+		   opacity : 0;
+
+			}
+
+		100% {
+
+		   opacity : 1;
+
+			}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#WeatherInfo{
+
+	position: absolute;
+
+	font-family: Bauhaus;
+ 
+	Font-size: 30px;
+
+	left: 10px;
+
+	top: 0px;
+
+	width: 320px;
+
+	height: 300px;
+
+	opacity : 1;
+
+	z-index: 30;
+
+
+}
+
+
+
+
+
+
+#city{
+
+	position: absolute; top: 15px; left: -60px; width: 200px; height: 481px;
+
+	display: true;
+
+	padding-left: 42px;
+
+	text-align: right;
+
+	font-size: 18px;
+
+	font-family: Bauhaus;
+
+	color: #1b1b1b;
+
+	opacity: 1;
+
+}
+
+	
+
+#date{
+
+	position:absolute;
+
+	top: 370px;
+
+	width: 320px;
+
+    font-family: Bauhaus;
+
+    color: White;
+
+	text-align:center;
+
+    text-shadow: 2px 0px 4px black;	
+
+    display: none ;
+
+}
+
+
+#Clock {
+
+	position:absolute;
+
+	top: 370px;
+
+	width: 320px;
+
+    font-family: Bauhaus;
+
+    color: White;
+
+	text-align:center;
+
+    display: none ;
+
+}
+
+
+
+#desc {
+
+	position: absolute; top: 40px; right: 0px; down: 0px; left: -140px; width: 320px; height: 481px;
+
+	display: true;
+
+	text-align: right;
+
+	font-family: Bauhaus;
+
+	font-size: 15px;
+
+	color: #9b9b9b;
+
+	opacity: 1;
+
+
+}
+
+
+
+#lastupdate{
+
+	position: absolute;
+
+	text-align: left;
+
+	top: 375px;
+
+	left: 5px;
+
+	width: 320px;
+
+	height: 60px;
+
+	font-size: 12px;
+
+	color: #9b9b9b;
+
+	text-align:center;
+
+	text-shadow: #000000 0px 0px 2px, #000000 0px 0px 2px ;
+
+    opacity: 1;
+
+	display: none;
+
+}
+
+
+
+#Offline{
+
+	position: absolute;
+
+	text-align: right;
+
+	top: 370px;
+
+	right: 5px;
+
+	width: 100px;
+
+	height: 60px;
+
+	font-weight: bold;
+
+	font-size: 12px;
+
+	color: red;
+
+    z-index: 26;
+
+}
+
+
+
+#temp {
+
+	position: absolute; top: 8px; right: 0px; down: 0px; left: -35px; width: 320px; height: 300px;
+
+	display: true;
+
+	text-align: right;
+
+	font-family: Bauhaus;
+
+	font-size: 64px;
+
+	text-transform: Capitalize;
+
+	color: #1b1b1b;
+
+	opacity: 1;
+
+}
+
+.minmaxContainer {
+
+	background-color : transparent;
+
+	position: absolute;
+
+    text-align: left;
+
+	font-size: 13.5px;
+
+	font-weight: bold;
+
+	top: 144px;
+
+	left: -84px;
+
+	width:320px;
+
+	height: 60px;
+
+	z-index: 26;
+
+	opacity : 1;
+
+}
+
+.max{
+
+	z-index:240;
+
+	font-size: 17px;
+
+	color: #ffff00;
+
+	font-family: Bauhaus;
+
+	position:absolute;
+
+	top:0px;
+
+	left:0px;
+
+}
+
+	
+
+.min{
+
+	z-index:240;
+
+	font-size: 17px;
+
+	color: #ffff00;
+
+	font-family: Bauhaus;	 
+
+	position:absolute;
+
+	top:40px;
+
+	left:0px;
+
+}
+
+	
+
+.minmax{
+
+	position:absolute;
+
+	top:0px;
+
+	left:70px;
+
+	opacity:0.8;
+
+	z-index: 200;			
+
+	
+
+}
+
+	
+
+.slash{
+
+	z-index:200;
+
+	font-size: 13.5px;
+
+	color:#000;
+
+	position:absolute;
+
+	top:40px;
+
+	padding-left: 9px;
+
+}
+
+			
+
+#low{
+
+	position: absolute;
+
+	top: -80px;
+
+	right: 55px;
+
+	width: 40px;
+
+	text-align:right;
+
+	height: 60px;
+
+	color: #9b9b9b;
+
+}
+
+#lowd{
+
+	position: absolute;
+
+	top: -80px;
+
+	right: 80px;
+
+	width: 40px;
+
+	height: 60px;
+
+	text-align:right;
+
+	color: #1b1b1b;
+
+	display:true;
+
+}
+
+
+
+#highd{
+
+	position: absolute;
+
+	top: -80px;
+
+	right:130px;
+
+	width: 40px;
+
+	height: 60px;
+
+	text-align:right;
+
+	color: #1b1b1b;
+
+	display:true;
+
+}
+
+#high{
+
+	position: absolute;
+
+	top: -80px;
+
+	right: 108px;
+
+	width: 40px;
+
+	height: 60px;
+
+	text-align:right;
+
+	color: #9b9b9b;
+
+}
+
+
+
