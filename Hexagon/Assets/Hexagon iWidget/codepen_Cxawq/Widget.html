@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CSS Hexagon - CodePen</title>
+
+    <style>
+.hexagon {
+  position: relative;
+  margin-top: 55px;
+  width: 190px;
+  height: 110px;
+  background: rgba(0,0,0,.5);
+  background-position: center center;
+  z-index: 1;
+  /* Text styling */
+  line-height: 110px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: #fff;
+  color: rgba(255,255,255,.5);
+  cursor: pointer;
+  transition: color 500ms ease, text-shadow 500ms ease;
+}
+.hexagon:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
+}
+
+.hexagon .face1,
+.hexagon .face2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: inherit;
+  z-index: -1;
+  /* Keeps borders smooth in webkit */
+  backface-visibility: hidden;
+}
+.hexagon .face1:before,
+.hexagon .face2:before {
+  content: '';
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background: inherit;
+}
+
+.hexagon .face1 { transform: rotate(60deg); }
+.hexagon .face1:before {
+  left: 0;
+  transform-origin: left top;
+  transform: rotate(-60deg) translate(-110px, 0);
+}
+
+.hexagon .face2 { transform: rotate(-60deg); }
+.hexagon .face2:before {
+  right: 0;
+  transform-origin: right top;
+  transform: rotate(60deg) translate(110px, 0);
+}
+</style>
+
+  <script src="js/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="hexagon">
+  HEXAGON
+  <div class="face1"></div>
+  <div class="face2"></div>
+</div>
+
+</body>
+
+</html>

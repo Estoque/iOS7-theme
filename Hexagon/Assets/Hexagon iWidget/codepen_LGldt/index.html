@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CSS Hexagon - CodePen</title>
+
+<script>
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+// add a zero in front of numbers<10
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m;
+t=setTimeout(function(){startTime()},500);
+}
+
+function checkTime(i)
+{
+if (i<10)
+  {
+  i="0" + i;
+  }
+return i;
+}
+</script>
+
+    <style>
+BODY {
+ zoom: 1.3;
+}
+
+#txt {
+	position: absolute;
+	font-size: 72px;
+	font-family: AvenirNextCondensed-UltraLight;
+	margin-top: 65px;
+	text-align: center;
+	margin-left: 20px;
+	color:  black;
+	z-index: 999;
+}
+
+.center {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: -5px;	
+	
+}
+
+.hexagon {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  visibility: hidden;
+  transform: rotate(120deg);
+  cursor: pointer;
+}
+
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+}
+
+.hexagon-in2 {
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  transform: rotate(-60deg);
+  background: rgba(255,255,255,.5);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+</style>
+
+  <script src="js/prefixfree.min.js"></script>
+
+</head>
+
+<body onload="startTime()">
+ <div id="txt"></div>	
+  <div class='center'>
+  <div class='hexagon'>
+    <div class='hexagon-in1'>
+      <div class='hexagon-in2'>
+	           
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

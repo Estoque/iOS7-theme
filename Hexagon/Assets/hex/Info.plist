@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+
+<key>CalendarIconDateStyle</key>
+<string>color:#fff; font-size: 40px; margin-top: -5px; font-family: AvenirNextCondensed-UltraLight;</string>
+
+<key>CalendarIconDayStyle</key>
+<string>opacity: 0;</string>
+
+<key>BadgeStyle</key>
+<string>color: #fff; font-size: 1em; padding: 0 3px; font-weight: 100; -webkit-transform: rotate(30deg);
+text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000, 0px -1px 0px #000, 0px 1px 0px #000, 1px 0px 0px #000, -1px 0px 0px #000; font-family: AvenirNextCondensed-Regular;
+</string>
+
+<key>TimeStyle</key>
+<string>color: yellow;</string>
+
+<key>DockedIconLabelStyle</key>
+<string>opacity: 0; font-family: AvenirNextCondensed-Regular;</string>
+
+<key>UndockedIconLabelStyle</key>
+<string>opacity: 0; font-family: AvenirNextCondensed-Regular;</string>
+
+</dict></plist>
